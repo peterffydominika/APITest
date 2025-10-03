@@ -18,5 +18,25 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Test.Controllers.BooksController",
+    "Method": "GetById",
+    "RelativePath": "books/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Test.Book",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

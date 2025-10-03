@@ -13,7 +13,7 @@ namespace Test.Controllers
         public Connect()
         {
             _host = "localhost";
-            _db = "library";
+            _db = "library1";
             _user = "root";
             _password = "";
             ConnectionString = $"SERVER={_host};DATABASE={_db};UID={_user};PASSWORD={_password};SslMode=none";
